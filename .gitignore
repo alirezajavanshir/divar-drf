@@ -1,0 +1,33 @@
+# Python
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+
+# پوشه‌های غیرضروری
+*.egg-info/
+dist/
+build/
+
+# IDE و ویرایشگرها
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# سیستم‌های مختلف
+.DS_Store
+Thumbs.db
